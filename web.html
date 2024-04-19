@@ -35,8 +35,10 @@
     .left {
       float: left;
       width: 180px;
-      margin: 0;
-      padding: 1em;
+      height: auto;
+      margin: 10;
+
+      background-color: rgb(246, 246, 246);
     }
 
     .content {
@@ -62,9 +64,9 @@
       width: auto;
     }
     .recipe-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Display recipes in a grid */
-    gap: 1rem;
+    display:contents;
+    grid-template-columns: repeat(3, 1fr); 
+    gap:initial;
 }
   </style>
 </head>
@@ -81,9 +83,7 @@
     </aside>
     <main class="content">
       <h2>Introduction</h2>
-      <p>CS is a system of five public charter schools that offer a 21st century educational experience in economics, science, technology, engineering, and mathematics. Learn and enjoy</p>
-      <h2>Info</h2>
-      <p>I work as a web developer for a company that makes websites.</p>
+      <p>Koshary is a national dish and one of Cairo's most famous street foods. It has a base of rice and macaroni and is mixed with lentils or chickpeas. Vinegar and tomato sauce are added to it. It is then garnished with fried onions. It is a simple traditional food that is considered to be vegan heaven.</p>
       <hr><br>
       <h2>How This?</h2>
       <table>
@@ -102,7 +102,11 @@
     </main>
 </div>
 <section class="recipe-list">
-  <!-- Display multiple recipes here -->
+  <list>
+    <ul>What do you eat?</ul>
+    <ul>What do you eat?</ul>
+    <ul>What do you eat?</ul>
+  </list>
 </section>
 <footer>Do you want more look at this: https://theculturetrip.com/africa/egypt/articles/must-try-dishes-to-eat-when-visiting-cairo</footer>
       
