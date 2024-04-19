@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-  <title>esteM</title>
-  <link rel="Here is the link" href="http://estem10.21pstem.org/">
+  <title>Reciepe book</title>
   <style>
 
     body {
-      margin: 0;
+      margin: 10;
       box-sizing: border-box;
-      background-color: antiquewhite;
+      background-color: rgb(237, 193, 137);
     }
 
     .container {
+      margin-top: 10;
+      margin-bottom: 10;
       line-height: 150%;
       text-align: center;
 
@@ -20,15 +21,15 @@
 
     .header {
       text-align: center;
-      background-color: gray;
+      background-color: rgb(182, 13, 13);
       margin-top: 0;
       margin-bottom: 0;
       display: flex;
     }
 
     .header h1 {
-      color:white;
-      font-size: 30px;
+      color:rgb(242, 255, 0);
+      font-size: 35pt;
     }
 
     .left {
@@ -52,32 +53,30 @@
       display:grid;
       color: #000;
       padding: 8px 10px;
-      text-decoration:solid;
+      text-decoration:double;
     }
 
-    table {
+    table, th,td {
       font-family: arial;
-      border-collapse: collapse;
-      width: 100%;
-      margin: 30px 0;
+      border: 1px solid black;
+      width: auto;
     }
+    .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display recipes in a grid */
+    gap: 1rem;
+}
   </style>
 </head>
 
 <body>
   <div class="container">
     <header class="header">
-      <h1>Estem</h1>
+      <h1>Reciepe books - Elsherbiny cooks</h1>
       </div>
     </header>
     <aside class="left">
-      <img src="Hp - wallpaper.jfif" width="160px" />
-      <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#career">Career</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
+      What do you know about food?
       <br><br>
     </aside>
     <main class="content">
@@ -89,19 +88,24 @@
       <h2>How This?</h2>
       <table>
         <tr>
-          <th>head 1</th>
-          <th>head 2</th>
-          <th>head 3</th>
+          <th>instruction 1</th>
+          <th>instruction 2</th>
+          <th>instruction 3</th>
         </tr>
         <tr>
-          <td>Cleaning cars in your backyard</td>
-          <td>Storing some info for you</td>
-          <td>Taking you through the life</td>
+          <td>Put some sugar</td>
+          <td>Add some water and eggs</td>
+          <td>Don't add anything. Eat your results that looks terrible</td>
         </tr>
         <tr>
       </table>
     </main>
 </div>
+<section class="recipe-list">
+  <!-- Display multiple recipes here -->
+</section>
+<footer>Do you want more look at this: https://theculturetrip.com/africa/egypt/articles/must-try-dishes-to-eat-when-visiting-cairo</footer>
+      
 </body>
 
 </html>
