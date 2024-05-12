@@ -6,110 +6,98 @@
   <style>
 
     body {
-      margin: 10;
-      box-sizing: border-box;
-      background-color: rgb(237, 193, 137);
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
     }
-
-    .container {
-      margin-top: 10;
-      margin-bottom: 10;
-      line-height: 150%;
-      text-align: center;
-
-    }
-
     .header {
-      text-align: center;
-      background-color: rgb(182, 13, 13);
-      margin-top: 0;
-      margin-bottom: 0;
-      display: flex;
+        background-color: #20036a;
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 20px;
     }
-
-    .header h1 {
-      color:rgb(242, 255, 0);
-      font-size: 35pt;
+    img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
     }
-
-    .left {
-      float: left;
-      width: 180px;
-      height: auto;
-      margin: 10;
-
-      background-color: rgb(246, 246, 246);
+    .main-content {
+        flex: 2;
+        padding: 20px;
+        
     }
-
-    .content {
-      margin-left: 190px;
+    .sidebar {
+        flex: 1;
+        padding: 20px;
+        background-color: #b3b5fa;
     }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+    html {
+scroll-behavior: smooth;
+}
+    .text{
+        
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1cm;
+        font-size: large;
     }
-
-    li a {
-      display:grid;
-      color: #000;
-      padding: 8px 10px;
-      text-decoration:double;
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #20036a;
+        color: #fff;
     }
-
-    table, th,td {
-      font-family: arial;
-      border: 1px solid black;
-      width: auto;
-    }
-    .recipe-list {
-    display:contents;
-    grid-template-columns: repeat(3, 1fr); 
-    gap:initial;
+    .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+.main-content {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sidebar;
 }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>Reciepe books - Elsherbiny cooks</h1>
-      </div>
-    </header>
-    <aside class="left">
-      What do you know about food?
-      <br><br>
-    </aside>
-    <main class="content">
-      <h2>Introduction</h2>
-      <p>Koshary is a national dish and one of Cairo's most famous street foods. It has a base of rice and macaroni and is mixed with lentils or chickpeas. Vinegar and tomato sauce are added to it. It is then garnished with fried onions. It is a simple traditional food that is considered to be vegan heaven.</p>
-      <hr><br>
-      <h2>How This?</h2>
-      <table>
-        <tr>
-          <th>instruction 1</th>
-          <th>instruction 2</th>
-          <th>instruction 3</th>
-        </tr>
-        <tr>
-          <td>Put some sugar</td>
-          <td>Add some water and eggs</td>
-          <td>Don't add anything. Eat your results that looks terrible</td>
-        </tr>
-        <tr>
-      </table>
-    </main>
+  <div class="header">
+    <h1>STEM October Official website blogs</h1>
+    <img src="STEM_Logo_BW.png" alt="logo" >
 </div>
-<section class="recipe-list">
-  <list>
-    <ul>What do you eat?</ul>
-    <ul>What do you eat?</ul>
-    <ul>What do you eat?</ul>
-  </list>
-</section>
-<footer>Do you want more look at this: https://theculturetrip.com/africa/egypt/articles/must-try-dishes-to-eat-when-visiting-cairo</footer>
-      
+<div class="container">
+    <div class="main-content">
+Blogs
+    </div>
+    <aside class="sidebar">
+        RANKED AS EGYPT'S BEST HIGH SCHOOL, STEM HIGH SCHOOL FOR BOYS - 6TH OF OCTOBER
+    </aside>
+</div>
+<div class = "text">
+    Accepting only about 150 out of thousands of applicants annually, STEM October is highly competitive. The school targets prospective students with demonstrated passion and aptitude for Science, Technology, Engineering, and Mathematics.
+    Offering a unique system that focuses on scientific, mathematical, and technological fields, STEM schools target high-potential students who demonstrate strong academic skills.
+    Classes in STEM October merge the punctual academic curricula with interesting collaborative environment, aiming to improve students’ social and presentational qualities. What makes STEM system unique is the fact of being student-based; that is, students are the center of the educational organization as it depends on students in explaining and searching their indicated concepts.
+    The curriculum focuses on four main aspects which are: sciences, humanities, arts, and sports. Most classes provided are in STEM-based subjects such as chemistry, physics, biology, geology, pure mathematics, applied mathematics(mechanics), and technology. Students discuss the different topics of each subject in the classroom and then try to apply what they have learned in the labs with the guidance of our renowned faculty members. Regarding humanities, students take classes in languages: Arabic, English, German/French; Social Studies; Civics; and Religion. The purpose of these classes is to promote multi intellectuality and encourage students to share their ideas with their classmates. students are also required to enrol in one of three activities: Art, Library, Music to help them foster their sensational and artistic tastes. The last aspect is sports which is a mandatory course at STEM October due to its obvious importance in building students’ bodies and minds.
+    The most attractive feature at STEM schools in the Capstone. Since its very first graduating class in 2014, student research has played an essential role in learning at STEM High School. Requirements for the STEM High School Diploma include the completion of five original engineering or experimental research project be distributed across five semesters while be exhibited and evaluated at the end of each one. Students work in teams and choose their projects based on the topic provided that responds to one of the Egyptian Grand Challenges. Capstones are graded during the “Capstone Exhibition” by a panel of university professors in the School of Sciences and School of Engineering. The selected Grand Challenges include but not limited to:
+<ul>
+<li>Housing</li>
+<li>Energy systems and Renewable resources</li>
+<li>Water availability and treatment</li>
+<li>Establishment of Industrial basis</li>
+<li>Communication</li>
+<li>Agriculture and Food support</li></ul>
+</div>
+<div class="footer">
+    © 2024 STEM Blogs
+</div>
+
 </body>
 
 </html>
